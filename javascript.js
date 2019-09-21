@@ -141,8 +141,8 @@ function show(Id){
 //generate question and multiple answers
 
 function generateQA(){
-    var x = 1+ Math.round(9*Math.random());
-    var y = 1+ Math.round(9*Math.random());
+    var x = 1+ Math.round(19*Math.random());
+    var y = 1+ Math.round(19*Math.random());
    
 	var op=["*","+","-","%"]
 	var ri = op[Math.floor(Math.random()*op.length)];
